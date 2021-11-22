@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Hello World!
-categories: [general, setup, demo]
-tags: [demo, dbyll, dbtek, setup]
+title: outerskyb's blog (outersky's blog)
+categories: [first post]
+tags: [firstpost,helloword]
 fullview: true
 comments: true
 ---
 
-**dbyll** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
+This is a place for logging thing new to me. Not like another people I don't want to use github page as a portfolio or something.
+Which means the theme of the articles are not fixed. Recently, I have big interest in philosophy and religion. so I'll write about that(if I can write that in english). at the same time I like to use
 
-**dbyll** is brought to you by **[dbtek](http://ismaildemirbilek.com)**. Open sourced under [MIT](http://opensource.org/licenses/MIT) license.
 
-### dbyll is on GitHub
-
-<a class="btn btn-default" href="https://github.com/dbtek/dbyll">Grab your copy now!</a>
