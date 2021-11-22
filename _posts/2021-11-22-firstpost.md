@@ -7,7 +7,7 @@ fullview: true
 comments: true
 ---
 
-### what is blog for
+### what is this blog for
 
 This is a place for logging thing new to me. Not like another people I don't want to use github page as a portfolio or something.  
 
