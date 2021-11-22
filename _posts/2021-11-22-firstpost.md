@@ -13,7 +13,7 @@ This is a place for logging thing new to me. Not like another people I don't wan
 
 ### Things you can see on here
 
-Which means the theme of the articles are not fixed. Recently, I have big interest in philosophy and religion(TMI : I am a atheist!). So I'll write about that(if I can write that in english). At the same time I like to upload some notes about DL/ML or CS.
+The theme of the articles are not fixed. Recently, I have big interest in philosophy and religion(TMI : I am a atheist!). So I'll write about that(if I can write that in english). At the same time I like to upload some notes about DL/ML or CS.
 
 ### Can it be wiki?
 
