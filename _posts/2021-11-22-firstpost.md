@@ -1,6 +1,6 @@
 ---
 layout: post
-title: outerskyb's blog (outersky's blog)
+title: outerskyb's blog
 categories: [first post]
 tags: [firstpost,helloword]
 fullview: true
