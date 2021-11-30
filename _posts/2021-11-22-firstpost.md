@@ -9,11 +9,11 @@ comments: true
 
 ### what is this blog for
 
-This is a place for logging thing new to me. Not like another people I don't want to use github page as a portfolio or something.  
+This is a place for logging things new to me. Not like other people I don't want to use github page as a portfolio or something.  
 
 ### Things you can see on here
 
-The theme of the articles are not fixed. Recently, I have big interest in philosophy and religion(TMI : I am a atheist!). So I'll write about that(if I can write that in english). At the same time I like to upload some notes about DL/ML or CS.
+The theme of the articles are not fixed. Recently, I have big interest in philosophy and religion(TMI : I am a atheist!). So I'll write about that(if I can describe philosophical knowledge in english). At the same time I'd like to upload some notes about DL/ML or CS.
 
 ### Can it be wiki?
 
