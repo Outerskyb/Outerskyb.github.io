@@ -13,5 +13,5 @@ Before discouse about the paper. we need to know what terms used in paper mean. 
 
 ### Terms
 
-- pretext task : task used for learning representation. The representation is used for other tasks like detecton or classification.
+- pretext task : task used for learning representation in transfer learning. In transfer learning process the representation is used for other tasks like detecton or classification.
 - expoit : to utilize. (I just knew that word is for abusing)
