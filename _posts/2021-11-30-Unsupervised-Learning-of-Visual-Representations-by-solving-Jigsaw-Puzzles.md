@@ -9,9 +9,9 @@ comments: true
 
 ### overview
 
-``
+```
 Before discourse about the paper. we need to know what terms used in paper means. So for all post in this category, I'll check the meaning of the words first. Then write about the technology.
-``
+```
 
 The purpose of this paper is proposing novel method to train a network with unsupervised(self-supervised) way for using in tranfer learning (AlexNet Compatitive)
 
@@ -21,14 +21,14 @@ The purpose of this paper is proposing novel method to train a network with unsu
 2. The paper trying to train a network with unsupervised(self-supervised) way.
 3. The Purpose of the unsupervised learning is to learn representation of input image WELL enough to used that representation in transfer learning(fine fitting).
 4. Solving a Jigsaw puzzle is great way to make a network learn representation WELL.
-5. Because solving Jigsaw puzzle require high-level representation on image. (not low-level feature like color and texture)
-6. In jigsaw puzzle, orientation of pieces is related to all pieces. Can not find out with seeing just 2 pieces.
+5. Because solving jigsaw puzzle require high-level representation on image (not low-level feature like color and texture). It makes using that representation for general purpose easy.
+6. In jigsaw puzzle, orientation of pieces is related to all pieces. We can not find out that with seeing just 2 pieces.
 7. So, the paper propose a network structor seeing all 9 patch at the same time. Which is called CFN(context free network) siamese-ennead CNN.
 8. In CFN the input patches goes in to same network(AlexNet) concurrently and concat before fc layer.
 9. Fc layer learn the mapping of nine patches and their permutation.
-10. Permutation use for training is setted(n. 60~100) and made for maximizing average hamming distance.
-11. During the training pretext, the network could learn wrong way. That's called shortcut. Learning shortcut is good for solving pretext tasks. But bad at making general representation.
-
+10. Permutation used for training is setted(n. 60~100) and made for maximizing average hamming distance.
+11. During the training pretext task, the network could fit wrong way. That's called shortcut. Learning shortcut means a network is fitted good for solving pretext tasks but bad at making general representation.
+12. To avoid shortcut. The paper propose some techniques. Choose good permutation, gapping the pieces, color maniplation(jittering and mixing with gray image) are those.
 
 ### Terms
 
