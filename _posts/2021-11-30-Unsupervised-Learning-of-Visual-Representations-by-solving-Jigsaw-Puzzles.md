@@ -9,7 +9,21 @@ comments: true
 
 ### overview
 
-Before discouse about the paper. we need to know what terms used in paper mean. so for all post in this category, I'll check the meaning of the words first. Then wrote about the technology.
+```
+Before discourse about the paper. we need to know what terms used in paper means. So for all post in this category, I'll check the meaning of the words first. Then wrote about the technology.
+```
+
+The purpose of this paper is proposing novel method to train a network with unsupervised(self-supervised) way for using in tranfer learning (AlexNet Compatitive)
+
+#### abstraction
+
+1. The paper trying to train a network used for transfer learning to AlexNet
+2. The paper trying to train a network with unsupervised(self-supervised) way.
+3. The Purpose of the unsupervised learning is to learn representation of input image WELL enough to used that representation in transfer learning(fine fitting).
+4. Solving a Jigsaw puzzle is great way to make a network learn representation WELL.
+5. Because solving Jigsaw puzzle require high-level representation on image. (not low-level feature like color and texture)
+6. During the time of training pretext the network could learn wrong way. That's called shortcut. Learning shortcut is good for solving pretext tasks. But bad at making general representation.
+7.
 
 ### Terms
 
