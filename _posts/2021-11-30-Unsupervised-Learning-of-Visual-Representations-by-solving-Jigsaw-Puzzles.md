@@ -28,7 +28,7 @@ The purpose of this paper is proposing novel method to train a network with unsu
 9. Fc layer learn the mapping of nine patches and their permutation.
 10. Permutation used for training is setted(n. 60~100) and made for maximizing average hamming distance.
 11. During the training pretext task, the network could fit wrong way. That's called shortcut. Learning shortcut means a network is fitted good for solving pretext tasks but bad at making general representation.
-12. To avoid shortcut. The paper propose some techniques. Choose good permutation, gapping the pieces, color maniplation(jittering and mixing with gray image) are those.
+12. To avoid shortcut. The paper propose some techniques. Choosing good permutation, gapping the pieces, color maniplation(jittering and mixing with gray image) are those.
 
 ### Terms
 
