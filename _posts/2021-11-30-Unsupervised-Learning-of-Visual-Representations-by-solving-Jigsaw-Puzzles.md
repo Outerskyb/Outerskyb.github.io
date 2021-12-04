@@ -38,4 +38,7 @@ The purpose of this paper is proposing novel method to train a network with unsu
 
 ### Introduction
 
-Using supervised learning in visual task has been done successfully. But It's labeling work is labor-oriented. That makes unsupervised learning popular. Recetly proposed method called ***self-supervised learning*** uses label easily getted from image or out of that to learn general-purpose features. The paper review three different approach. One use relative position of two patches as label. Second one use video to learn object correspondence. Last one is on [here](https://arxiv.org/abs/1505.01596).
+Using supervised learning in visual task has been done successfully. But It's labeling work is labor-oriented. That makes unsupervised learning popular. Recetly proposed method called ***self-supervised learning*** uses label easily getted from image or out of that to learn general-purpose features. The paper review three different approach. One use relative position of two patches as label. Second one use video to learn object correspondence. Last one is on [here](https://arxiv.org/abs/1505.01596). The first one uses only sigle image (at a time). But other ones use multiple images. 
+The paper suggest ***Jigsaw Puzzle*** as a pretext of self-supervised learning. To solve puzzle a model need to look all piece of it. Feature learned from this paper switches well to other tasks like detection or segmentation.
+
+### 
