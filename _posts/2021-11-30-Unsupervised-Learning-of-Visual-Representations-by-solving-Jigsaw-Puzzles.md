@@ -44,3 +44,17 @@ The paper suggest ***Jigsaw Puzzle*** as a pretext of self-supervised learning. 
 ![puzzle example](https://github.com/Outerskyb/Outerskyb.github.io/blob/master/_posts/img/2021-11-30-Unsupervised-Learning-of-Visual-Representations-by-solving-Jigsaw-Puzzles/img1.JPG?raw=true)
 
 ### Related Work
+
+later...
+
+![fig2](https://github.com/Outerskyb/Outerskyb.github.io/blob/master/_posts/img/2021-11-30-Unsupervised-Learning-of-Visual-Representations-by-solving-Jigsaw-Puzzles/img2.JPG?raw=true)
+
+### Solving Jigsaw Puzzles
+
+Putting all piece of puzzle as a single input of models is not a good idea. That makes the network prefer to identify correlations between low-level texture rather than high-level primitives. Just looking at the boundaries of patches doesn't help for understanding the global object(like tiger in fig1). The target of model is learn features which are representive and discriminative while solving puzzle.
+
+![fig3](https://github.com/Outerskyb/Outerskyb.github.io/blob/master/_posts/img/2021-11-30-Unsupervised-Learning-of-Visual-Representations-by-solving-Jigsaw-Puzzles/img3.JPG?raw=true)
+
+### 3.1 The context free architecture
+
+Dealing with these problem, the paper build siamese-ennead convolution neural network. Which is called Context free Network. From the input of it to fc6's structor is same as Alexnet's. The network uses this structor as row of siamese-ennead network. After data pass fc6 layer all nine ouput of fc6 layer is concatenated, Then feeded to fc7. 
