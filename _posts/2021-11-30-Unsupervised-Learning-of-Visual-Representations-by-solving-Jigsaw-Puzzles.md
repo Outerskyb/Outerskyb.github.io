@@ -15,7 +15,7 @@ Before discourse about the paper. we need to know what terms used in paper means
 
 The purpose of this paper is proposing novel method to train a network with unsupervised(self-supervised) way for using in tranfer learning (AlexNet Compatitive)
 
-#### abstraction
+### my abstraction
 
 1. The paper trying to train a network used for transfer learning to AlexNet
 2. The paper trying to train a network with unsupervised(self-supervised) way.
@@ -37,3 +37,5 @@ The purpose of this paper is proposing novel method to train a network with unsu
 - chromatic aberration : Wrong focus makes each color channel shifts a little. light raies that have different frequency has different refractive index. If a ray pass through the lens, lens became a prism. To prevent that, typical camera has lots of lens and to move them to adjust the refract. (In korean 색수차)
 
 ### Introduction
+
+Using supervised learning in visual task has been done successfully. But It's labeling work is labor-oriented. Recetly proposed method called ***self-supervised learning***
