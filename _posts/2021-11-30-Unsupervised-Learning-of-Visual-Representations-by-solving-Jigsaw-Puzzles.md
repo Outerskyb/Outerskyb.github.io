@@ -34,3 +34,5 @@ The purpose of this paper is proposing novel method to train a network with unsu
 
 - pretext task : task used for learning representation in transfer learning. In transfer learning process the representation is used for other tasks like detecton or classification.
 - expoit : to utilize. (I just knew that word is for abusing)
+- chromatic aberration : Wrong focus makes each color chanel shifts a little. light raies that have different frequency has different refractive index. Then if a ray pass through the lens, lens became a prism. To prevent that, typical camera has lots of lens and to move them to adjust the refract. (In korean 색수차)
+
