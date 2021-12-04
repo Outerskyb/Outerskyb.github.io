@@ -23,7 +23,7 @@ The purpose of this paper is proposing novel method to train a network with unsu
 4. Solving a Jigsaw puzzle is great way to make a network learn representation WELL.
 5. Because solving jigsaw puzzle require high-level representation on image (not low-level feature like color and texture). It makes using that representation for general purpose easy.
 6. In jigsaw puzzle, orientation of pieces is related to all pieces. We can not find out that with seeing just 2 pieces.
-7. So, the paper propose a network structor seeing all 9 patch at the same time. Which is called CFN(context free network) siamese-ennead CNN.
+7. So, the paper propose a network structure seeing all 9 patch at the same time. Which is called CFN(context free network) siamese-ennead CNN.
 8. In CFN the input patches goes in to same network(AlexNet) concurrently and concat before fc layer.
 9. Fc layer learn the mapping of nine patches and their permutation.
 10. Permutation used for training is setted(n. 60~100) and made for maximizing average hamming distance.
@@ -57,7 +57,7 @@ Putting all piece of puzzle as a single input of models is not a good idea. That
 
 ### 3.1 The Context-Free Architecture
 
-Dealing with these problem, the paper build siamese-ennead convolution neural network. Which is called Context free Network. From the input of it to fc6's structor is same as Alexnet's. The network uses this structor as row of siamese-ennead network. After data pass fc6 layer all nine ouput of fc6 layer is concatenated, Then feeded to fc7. All of the weights in siamese part are shared.
+Dealing with these problem, the paper build siamese-ennead convolution neural network. Which is called Context free Network. From the input of it to fc6's structure is same as Alexnet's. The network uses this structure as row of siamese-ennead network. After data pass fc6 layer all nine ouput of fc6 layer is concatenated, Then feeded to fc7. All of the weights in siamese part are shared.
 
 ### 3.2 The jigsaw Puzzle Task
 
