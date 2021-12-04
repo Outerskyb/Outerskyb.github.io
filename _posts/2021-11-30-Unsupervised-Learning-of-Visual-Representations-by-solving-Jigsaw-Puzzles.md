@@ -73,4 +73,4 @@ The equation is true because
 ``
 p(s|A) = p(s|F) * p(F|A) 
 ``
-(if it doesn't come to you guess s = human male, F= human, A = animal)
+(if it doesn't come to you. guess s = human male, F= human, A = animal)
