@@ -53,8 +53,24 @@ later...
 
 Putting all piece of puzzle as a single input of models is not a good idea. That makes the network prefer to identify correlations between low-level texture rather than high-level primitives. Just looking at the boundaries of patches doesn't help for understanding the global object(like tiger in fig1). The target of model is learn features which are representive and discriminative while solving puzzle.
 
-![fig3](https://github.com/Outerskyb/Outerskyb.github.io/blob/master/_posts/img/2021-11-30-Unsupervised-Learning-of-Visual-Representations-by-solving-Jigsaw-Puzzles/img3.JPG?raw=true)
+![fig3](https://github.com/Outerskyb/Outerskyb.github.io/blob/master/_posts/img/2021-11-30-Unsupervised-Learning-of-Visual-Representations-by-solving-Jigsaw-Puzzles/img4.JPG?raw=true)
 
-### 3.1 The context free architecture
+### 3.1 The Context-Free Architecture
 
-Dealing with these problem, the paper build siamese-ennead convolution neural network. Which is called Context free Network. From the input of it to fc6's structor is same as Alexnet's. The network uses this structor as row of siamese-ennead network. After data pass fc6 layer all nine ouput of fc6 layer is concatenated, Then feeded to fc7. 
+Dealing with these problem, the paper build siamese-ennead convolution neural network. Which is called Context free Network. From the input of it to fc6's structor is same as Alexnet's. The network uses this structor as row of siamese-ennead network. After data pass fc6 layer all nine ouput of fc6 layer is concatenated, Then feeded to fc7. All of the weights in siamese part are shared.
+
+### 3.2 The jigsaw Puzzle Task
+
+As difficult of using all 9! pemutation for training is hard, Paper define a set of permutation used for training. number of elements in set is 69 to 1000. permutation set is import factor on learning pretext and tranfer task.
+
+### 3.3 Training the CFN
+
+We can assume the ouput of CFN as the conditional pdf of the spatial arrangement of object parts in a part based model.
+
+![fig4](https://github.com/Outerskyb/Outerskyb.github.io/blob/master/_posts/img/2021-11-30-Unsupervised-Learning-of-Visual-Representations-by-solving-Jigsaw-Puzzles/img5.JPG?raw=true)
+
+The equation is true because
+``
+p(s|A) = p(s|F) * p(F|A) 
+``
+(if it doesn't come to you guess s = human male, F= human, A = animal)
