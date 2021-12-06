@@ -51,7 +51,7 @@ later...
 
 ### Solving Jigsaw Puzzles
 
-Putting all piece of puzzle as a single input of models is not a good idea. That makes the network prefer to identify correlations between low-level texture rather than high-level primitives. Just looking at the boundaries of patches doesn't help for understanding the global object(like tiger in fig1). The target of model is learn features which are representive and discriminative while solving puzzle.
+Putting all piece of puzzle as a single input of models is not a good idea. That makes the network prefer to identify correlations between low-level texture rather than high-level primitives. Just looking at the boundaries of patches doesn't help for understanding the global object(like tiger in fig1). The target of model is learning features which are representive and discriminative while solving puzzle.
 
 ![fig3](https://github.com/Outerskyb/Outerskyb.github.io/blob/master/_posts/img/2021-11-30-Unsupervised-Learning-of-Visual-Representations-by-solving-Jigsaw-Puzzles/img4.JPG?raw=true)
 
